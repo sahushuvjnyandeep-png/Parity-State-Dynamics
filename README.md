@@ -12,7 +12,7 @@ which gives some pecuilar results.
 
 Proven Results: -
 
-We get ssome Fixed Points by plain implementation of this funtion in computer.
+We get some Fixed Points by plain implementation of this funtion in computer.
 The following integers are the fixed points:
 - 0
 - 324
