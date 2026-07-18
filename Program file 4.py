@@ -3,10 +3,12 @@ from collections import defaultdict
 # frequency counters
 count_324 = defaultdict(int)
 count_5184 = defaultdict(int)
+count_0 = defaultdict(int)
 
 # sets to track unique pairs
 pairs_324 = set()
 pairs_5184 = set()
+pairs_0 = set()
 
 
 def get_first_pair(n):
@@ -48,6 +50,8 @@ def oessp(n):
             return
         
         elif n == 0:
+            count_0[first_pair] += 1
+            pairs_0.add(first_pair)
             return
 
 
@@ -65,9 +69,13 @@ print("\n--- Pairs leading to 5184 ---")
 for pair, cnt in count_5184.items():
     print(pair, "->", cnt)
 
+print("\n--- Pairs leading to 0 ---")
+for pair, cnt in count_0.items():
+    print(pair, "->", cnt)
+
 
 # common pairs
-common_pairs = pairs_324 & pairs_5184
+common_pairs = pairs_324 & pairs_5184 & pairs_0
 
 print("\n--- Common pairs ---")
 print(common_pairs)
