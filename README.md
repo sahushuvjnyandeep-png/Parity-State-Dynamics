@@ -118,7 +118,7 @@ Exhaustive computation found no fixed points other than:
 0, 324, 5184.
 
 
- ## [Computational Observations]
+ ## Computational Observations
     Basin Structure
     Many integers eventually reach one of:
       - 0
@@ -129,37 +129,37 @@ Exhaustive computation found no fixed points other than:
       47 → 784 → 7056 → 5184   {in all there is continoious iteration of f(n) = (E(n)·O(n))²}
       17 → 0
 
-## [No Nontrivial Cycles Found]
+## No Nontrivial Cycles Found
     No cycles other than the fixed points have been found by exhaustive computation up to at least 10^7.
     State-Space Reduction:
       The dynamics appear to be governed primarily by the pair:
           (E(n), O(n))
       rather than by n itself.(n-denotes any integer)
 
-## [Hyperbolic Structure]
+## Hyperbolic Structure
     The terminal states satisfy:
       EO = 18 → 324
       EO = 72 → 5184
     These correspond to discrete hyperbolas in (E,O)-space.
 
-##  [Scaling Symmetry]
+##  Scaling Symmetry
     The terminal hyperbola for 5184 is obtained from that of 324 by the scaling:
       (E,O) → (4E,O) or (E,4O) (corresponding pairs)
       Since,
       72 = 4²·18.
       
-Graph: -
+### Graphical observations: -
 
-##  [Ladder Structure]
+##  Ladder Structure
     Plots of the state pairs (E,O) exhibit staircase-like or ladder-like patterns consisting of discrete levels and bands.
     
-##  [Bounded Behavior]
+## Bounded Behavior
 Iterates quickly enter a bounded region determined by the digit sums, although the set of initial values is infinite.
 
-##  [Growth Reduction]
+##  Growth Reduction
     For large integers, the iteration greatly reduces magnitude compared with the size of the original integer. The map appears globally contracting despite           possible local increases.(observation only)
 
-##  [Direct Terminal Pairs]
+##  Direct Terminal Pairs
     Pairs producing 324 satisfy:
       EO = 18
     Examples:
@@ -173,22 +173,22 @@ Iterates quickly enter a bounded region determined by the digit sums, although t
 
 Conjectures and Open Questions: -
 
-##  [Global Attractor Conjecture]
+##  Global Attractor Conjecture
     Does every positive integer eventually reach one of:
     0, 324, or 5184? - Till now, Yes
     
-##  [Cycle Conjecture]
+##  Cycle Conjecture
     Do any nontrivial cycles exist?
     -None have been found up to 10^7.
     
-##  [State-Space Theory]
+##  State-Space Theory
     Can the iteration be completely described in terms of transitions between (E,O) states?
     -Till now what i have found was completely based on thses pairs.
   
-##  [Asymptotic Behavior and Growth]
+##  Asymptotic Behavior and Growth
     What is the exact asymptotic growth law of the map for large n? - Still ssearching.It does not have single growht law but a)Balanced regime b)one-sided regime     and c)Pure parity regime
     
-##  [Geometric Structure]
+##  Geometric Structure
     Can the observed ladder structure and hyperbolic organization be explained theoretically? - idk
     
 Current Status: -
