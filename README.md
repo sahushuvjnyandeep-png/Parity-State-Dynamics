@@ -119,7 +119,8 @@ https://math.stackexchange.com/questions/5144103/how-can-i-prove-that-0-324-and-
 
  ## Computational Observations
  ### Basin Structure
- Many integers eventually reach one of:
+ Many integers eventually reach one 
+ of:
       - 0
       - 324
       - 5184
