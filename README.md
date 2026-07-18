@@ -31,28 +31,23 @@ But sadly, there are no more fixed points in whole of the number system other th
   \]
 
  where \(E(n)\) and \(O(n)\) denote    the sums of the even and odd decimal digits of \(n\), respectively. Suppose that \(n\) is a fixed point, i.e.,
- $$
- \[
+ 
+$$\[
  n=f(n).
- \]
- $$
+ \]$$
  If \(n\) has \(d\) decimal digits, let \(d_0\) and \(d_1\) denote the numbers of even and odd digits, respectively, so that
- $$
- \[
+ $$\[
  d_0+d_1=d.
- \]
- $$
+ \]$$
 
  Since every even digit is at most \(8\) and every odd digit is at most \(9\),
-$$
- \[
+ $$\[
  E(n)\le8d_0,\qquad
  O(n)\le9d_1.
- \]
-$$
+ \]$$
 Hence,
 
-$$ \[
+$$\[
  E(n).O(n)\le72d_0d_1.
  \]$$
 
