@@ -25,10 +25,10 @@ But sadly, there are no more fixed points in whole of the number system other th
   ### Improved Finiteness Argument
 
   Let
-  $$
+  
   \[
-  f(n)=(E(n)O(n))^2,
-  \]$$
+  f(n)=(E(n).O(n))^2,
+  \]
 
  where \(E(n)\) and \(O(n)\) denote    the sums of the even and odd decimal digits of \(n\), respectively. Suppose that \(n\) is a fixed point, i.e.,
  $$
@@ -53,7 +53,7 @@ $$
 Hence,
 
 $$ \[
- E(n)O(n)\le72d_0d_1.
+ E(n).O(n)\le72d_0d_1.
  \]$$
 
  Using the inequality
@@ -65,13 +65,13 @@ $$ \[
 we obtain
 
  $$\[
- E(n)O(n)\le18d^2.
+ E(n).O(n)\le18d^2.
  \]$$
 
 Therefore,
 
  $$\[
- n=(E(n)O(n))^2\le(18d^2)^2.
+ n=(E(n).O(n))^2\le(18d^2)^2.
  \]$$
 
 Since every positive \(d\)-digit integer satisfies
@@ -94,7 +94,7 @@ Substituting \(d=6\) into the above bound gives
  n\le(18\cdot6^2)^2=648^2=419904.
  \]$$
 
-Furthermore, \(E(n)\) is always even, so \(E(n)O(n)\) is also even. Therefore every fixed point is an **even perfect square**, and it suffices to test only the 324 even perfect squares not exceeding \(648^2\).
+Furthermore, \(E(n)\) is always even, so \(E(n).O(n)\) is also even. Therefore every fixed point is an **even perfect square**, and it suffices to test only the 324 even perfect squares not exceeding \(648^2\).
 
 An exhaustive search over these candidates yields the only fixed points
 
