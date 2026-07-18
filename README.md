@@ -137,16 +137,16 @@ Exhaustive computation found no fixed points other than:
       rather than by n itself.(n-denotes any integer)
 
 ## Hyperbolic Structure
-  The terminal states satisfy:
+The terminal states satisfy:
       EO = 18 → 324
       EO = 72 → 5184
     These correspond to discrete hyperbolas in (E,O)-space.
 
-##  Scaling Symmetry
+##  Scaling Symmetry 
 The terminal hyperbola for 5184 is obtained from that of 324 by the scaling:
-      (E,O) → (4E,O) or (E,4O) (corresponding pairs)
-      Since,
-      72 = 4²·18.
+   (E,O) → (4E,O) or (E,4O) (corresponding pairs)
+   Since,
+     72 = 4²·18.
       
 ### Graphical observations: -
 
@@ -157,10 +157,10 @@ Plots of the state pairs (E,O) exhibit staircase-like or ladder-like patterns co
 Iterates quickly enter a bounded region determined by the digit sums, although the set of initial values is infinite.
 
 ##  Growth Reduction
-    For large integers, the iteration greatly reduces magnitude compared with the size of the original integer. The map appears globally contracting despite           possible local increases.(observation only)
+For large integers, the iteration greatly reduces magnitude compared with the size of the original integer. The map appears globally contracting despite           possible local increases.(observation only)
 
 ##  Direct Terminal Pairs
-    Pairs producing 324 satisfy:
+Pairs producing 324 satisfy:
       EO = 18
     Examples:
       (1,18), (2,9), (3,6), (6,3), (9,2), (18,1)
@@ -174,22 +174,22 @@ Iterates quickly enter a bounded region determined by the digit sums, although t
 Conjectures and Open Questions: -
 
 ##  Global Attractor Conjecture
-    Does every positive integer eventually reach one of:
+Does every positive integer eventually reach one of:
     0, 324, or 5184? - Till now, Yes
     
 ##  Cycle Conjecture
-    Do any nontrivial cycles exist?
+Do any nontrivial cycles exist?
     -None have been found up to 10^7.
     
 ##  State-Space Theory
-    Can the iteration be completely described in terms of transitions between (E,O) states?
+Can the iteration be completely described in terms of transitions between (E,O) states?
     -Till now what i have found was completely based on thses pairs.
   
 ##  Asymptotic Behavior and Growth
-    What is the exact asymptotic growth law of the map for large n? - Still ssearching.It does not have single growht law but a)Balanced regime b)one-sided regime     and c)Pure parity regime
+What is the exact asymptotic growth law of the map for large n? - Still ssearching.It does not have single growht law but a)Balanced regime b)one-sided regime     and c)Pure parity regime
     
 ##  Geometric Structure
-    Can the observed ladder structure and hyperbolic organization be explained theoretically? - idk
+Can the observed ladder structure and hyperbolic organization be explained theoretically? - idk
     
 Current Status: -
 
