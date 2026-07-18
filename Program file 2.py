@@ -71,7 +71,7 @@ def oessp(a):
         pro=1
         sum1=0#re-intialization
         sum2=0
-for i in range(9999900,9999999):
+for i in range(0,10000000):
     a=i
     if oessp(a):
         cycle_found=True
