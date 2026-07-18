@@ -119,7 +119,7 @@ Exhaustive computation found no fixed points other than:
 
 
  ## Computational Observations
-    Basin Structure
+  Basin Structure
     Many integers eventually reach one of:
       - 0
       - 324
@@ -130,20 +130,20 @@ Exhaustive computation found no fixed points other than:
       17 → 0
 
 ## No Nontrivial Cycles Found
-    No cycles other than the fixed points have been found by exhaustive computation up to at least 10^7.
+  No cycles other than the fixed points have been found by exhaustive computation up to at least 10^7.
     State-Space Reduction:
       The dynamics appear to be governed primarily by the pair:
           (E(n), O(n))
       rather than by n itself.(n-denotes any integer)
 
 ## Hyperbolic Structure
-    The terminal states satisfy:
+  The terminal states satisfy:
       EO = 18 → 324
       EO = 72 → 5184
     These correspond to discrete hyperbolas in (E,O)-space.
 
 ##  Scaling Symmetry
-    The terminal hyperbola for 5184 is obtained from that of 324 by the scaling:
+The terminal hyperbola for 5184 is obtained from that of 324 by the scaling:
       (E,O) → (4E,O) or (E,4O) (corresponding pairs)
       Since,
       72 = 4²·18.
@@ -151,7 +151,7 @@ Exhaustive computation found no fixed points other than:
 ### Graphical observations: -
 
 ##  Ladder Structure
-    Plots of the state pairs (E,O) exhibit staircase-like or ladder-like patterns consisting of discrete levels and bands.
+Plots of the state pairs (E,O) exhibit staircase-like or ladder-like patterns consisting of discrete levels and bands.
     
 ## Bounded Behavior
 Iterates quickly enter a bounded region determined by the digit sums, although the set of initial values is infinite.
