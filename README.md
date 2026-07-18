@@ -169,7 +169,7 @@ For large integers, the iteration greatly reduces magnitude compared with the si
 The terminal hyperbola for 5184 is obtained from that of 324 by the scaling:
    (E,O) → (4E,O) or (E,4O) (corresponding pairs)
    Since,
-     72 = 4²·18.
+     72² = 4²·18².
 
 ## Conjectures and Open Questions: -
 
