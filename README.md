@@ -152,7 +152,7 @@ Pairs producing 324 satisfy:
     and their reversals.
       
 ## Graphical observations: -
-
+https://www.geogebra.org/graphing/vyzppbua
 ###  Ladder Structure
 Plots of the state pairs (E,O) exhibit staircase-like or ladder-like patterns consisting of discrete levels and bands.
 
