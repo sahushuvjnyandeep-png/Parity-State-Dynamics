@@ -153,7 +153,7 @@ Pairs producing 324 satisfy:
       
 ## Graphical observations: -
 https://www.geogebra.org/graphing/vyzppbua
-###  Ladder Structure
+###  Staircase Structure
 Plots of the state pairs (E,O) exhibit staircase-like or ladder-like patterns consisting of discrete levels and bands.
 
  ### Hyperbolic Structure
